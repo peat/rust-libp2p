@@ -22,7 +22,7 @@ multiaddr = { package = "parity-multiaddr", version = "0.5.0", path = "../misc/m
 multihash = { package = "parity-multihash", version = "0.1.0", path = "../misc/multihash" }
 multistream-select = { version = "0.5.0", path = "../misc/multistream-select" }
 futures = "0.1"
-parking_lot = "0.8"
+parking_lot = "0.9"
 protobuf = "2.3"
 quick-error = "1.2"
 rand = "0.6"
@@ -35,7 +35,7 @@ tokio-io = "0.1"
 wasm-timer = "0.1"
 unsigned-varint = "0.2"
 void = "1"
-zeroize = "0.9"
+zeroize = "1"
 
 [target.'cfg(not(any(target_os = "emscripten", target_os = "unknown")))'.dependencies]
 ring = { version = "^0.16", features = ["alloc"], default-features = false }
@@ -47,7 +47,7 @@ libp2p-tcp = { version = "0.12.0", path = "../transports/tcp" }
 libp2p-mplex = { version = "0.12.0", path = "../muxers/mplex" }
 libp2p-secio = { version = "0.12.0", path = "../protocols/secio" }
 rand = "0.6"
-quickcheck = "0.8"
+quickcheck = "0.9"
 tokio = "0.1"
 wasm-timer = "0.1"
 assert_matches = "1.3"

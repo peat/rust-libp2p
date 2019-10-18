@@ -20,11 +20,11 @@ ring = { version = "^0.16", features = ["alloc"], default-features = false }
 snow = { version = "0.6.1", features = ["ring-resolver"], default-features = false }
 tokio-io = "0.1"
 x25519-dalek = "0.5"
-zeroize = "0.9"
+zeroize = "1"
 
 [dev-dependencies]
-env_logger = "0.6"
+env_logger = "0.7"
 libp2p-tcp = { version = "0.12.0", path = "../../transports/tcp" }
-quickcheck = "0.8"
+quickcheck = "0.9"
 tokio = "0.1"
 sodiumoxide = "^0.2.5"
